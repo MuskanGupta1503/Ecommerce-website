@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
-import django_heroku
+# import django_heroku
 
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -27,8 +27,8 @@ SECRET_KEY = 'sljyh$&!10ycyno#3xc28%=zz(d^oj%(0t75h&$f_qrq9kn5$k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://intense-beyond-14540.herokuapp.com/','127.0.0.1']
-
+# ALLOWED_HOSTS = ['https://intense-beyond-14540.herokuapp.com/','127.0.0.1']
+ALLOWED_HOSTS=[]
 
 # Application definition
 
@@ -132,4 +132,4 @@ MEDIA_ROOT=BASE_DIR
 import dj_database_url 
 prod_db  =  dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(prod_db)
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
