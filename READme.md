@@ -27,5 +27,23 @@ Go to Eshop folder and run
 Then go to the browser and enter the url http://127.0.0.1:8000/
 
 # Screenshots
-
+ ### Main page
 ![dashboard](/staticfiles/dashboard.jpg)
+
+ ### Categories
+![category](/staticfiles/category.jpg)
+
+ ### Signup
+![signup](/staticfiles/signup.jpg)
+
+ ### Login
+![login](/staticfiles/login.jpg)
+
+ ### Your Cart
+![cart](/staticfiles/cart.jpg)
+
+ ### CheckOut form
+![checkout](/staticfiles/checkout.jpg)
+
+ ### Orders
+![orders](/staticfiles/orders.jpg)
