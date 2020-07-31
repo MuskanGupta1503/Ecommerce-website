@@ -27,7 +27,5 @@ Go to Eshop folder and run
 Then go to the browser and enter the url http://127.0.0.1:8000/
 
 # Screenshots
-# Q. What is the logo of GitHub?
 
-## Answer:
-![GitHub Logo](/staticfiles/blackshirt.jpg)
+![dashboard](/staticfiles/dashboard.jpg)
